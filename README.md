@@ -1,6 +1,10 @@
-## About The Project
+# Traffic Sign Recognition
 
 This project is a traffic sign recognition system that can identify and classify traffic signs from images. The system uses machine learning algorithms to detect and recognize traffic signs, and it can be used in various applications such as autonomous vehicles and advanced driver assistance systems (ADAS) in future.
+
+## About the project
+
+This project is a real-time traffic sign recognition system built using Python, OpenCV, and a pre-trained CNN model, capable of detecting and recognizing traffic signs from both video streams and images.
 
 ## Getting Started
 To get started with the traffic sign recognition system, follow these steps:
