@@ -6,11 +6,26 @@ This project is a traffic sign recognition system that can identify and classify
 
 This project is a real-time traffic sign recognition system built using Python, OpenCV, and a pre-trained CNN model, capable of detecting and recognizing traffic signs from both video streams and images.
 
+The project includes a Jupyter notebook with the following:
+
+1. Data exploration and preprocessing
+2. Model training and evaluation
+3. Model deployment
+
+## Data Sources
+ https://www.kaggle.com/datasets/sherinclaudia/sarcastic-comments-on-reddit
+ 
 ## Getting Started
 To get started with the traffic sign recognition system, follow these steps:
-
+## Technologies Used
+- [Scikit learn](http://scikit-learn.org/stable)
+- [Pandas](http://pandas.pydata.org/)
+- [Numpy](http://www.numpy.org/)
+- [Matplotlib](http://matplotlib.org/)
+- [Seaborn](http://seaborn.pydata.org/)
+- [Scipy](https://www.scipy.org/)
+- 
 ### Installation
-
 
 1. Clone the repository :
    ```sh
@@ -25,10 +40,15 @@ To get started with the traffic sign recognition system, follow these steps:
    ```sh
    python traffic_sign_recognition.py
    ```
+## Model
+The machine learning model used for this project is a Custom LSTM. The model is trained on the training set and evaluated on the testing set.
+
+## Results
+The model achieved an accuracy of 62% on the testing set.
+
 ## Usage
 
 This projectvcan be used in various applications such as autonomous vehicles and advanced driver assistance systems (ADAS)
-
 
 ## Roadmap
 The traffic sign recognition system requires the following packages
@@ -53,13 +73,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## Authors
 
+########################################
 
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-## Acknowledgments
-
-* []()
-* []()
-* []()
+In order to run the code make sure you pre-install all the dependencies such as LIME, Flask etc.
 
