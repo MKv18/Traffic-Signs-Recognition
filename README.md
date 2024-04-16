@@ -17,11 +17,13 @@ https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/d
 
 
 ##Dataset
+
 The dataset used in this project is the German Traffic Sign Dataset. This dataset contains more than 50,000 images of traffic signs belonging to 43 different classes. The images are in color and have a resolution of 32x32 pixels. The dataset is divided into training, validation, and testing sets, with 39,209, 12,630, and 12,630 images, respectively.
 
 The dataset is stored in the data directory of the Git repository. The data directory contains three subdirectories: training, validation, and testing. Each subdirectory contains the images for the corresponding dataset.
 
 ##Code
+
 The code for this project is written in Python and is located in the FinalCode directory of the Git repository. The code is a Jupyter notebook that contains the following sections:
 
 **Data Loading:** This section loads the dataset from the data directory and preprocesses it for training and testing. The section uses the tensorflow library to load the images and their corresponding labels.
