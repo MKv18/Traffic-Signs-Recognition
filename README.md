@@ -15,6 +15,7 @@ The project includes a Jupyter notebook with the following:
 ## Data Sources
 https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data 
 
+
 ##Dataset
 The dataset used in this project is the German Traffic Sign Dataset. This dataset contains more than 50,000 images of traffic signs belonging to 43 different classes. The images are in color and have a resolution of 32x32 pixels. The dataset is divided into training, validation, and testing sets, with 39,209, 12,630, and 12,630 images, respectively.
 
@@ -24,11 +25,17 @@ The dataset is stored in the data directory of the Git repository. The data dire
 The code for this project is written in Python and is located in the FinalCode directory of the Git repository. The code is a Jupyter notebook that contains the following sections:
 
 **Data Loading:** This section loads the dataset from the data directory and preprocesses it for training and testing. The section uses the tensorflow library to load the images and their corresponding labels.
+
 **Data Augmentation:** This section applies data augmentation techniques to the training dataset to increase its size and diversity. The section uses the tensorflow library to apply random rotations, translations, and zooms to the images.
+
 **Model Architecture:** This section defines the neural network architecture used for traffic sign recognition. The architecture is based on the VGG16 model, which is a convolutional neural network (CNN) architecture that was proposed in 2014. The section uses the tensorflow and keras libraries to define and train the model.
+
 **Training:** This section trains the neural network model using the training dataset. The section uses the tensorflow library to train the model and save the trained model to a file.
+
 **Testing:** This section tests the neural network model using the testing dataset. The section loads the trained model from a file and uses it to classify the images in the testing dataset. The section uses the tensorflow library to load the model and classify the images.
+
 **Evaluation:** This section evaluates the performance of the neural network model using various metrics, such as accuracy, precision, recall, and F1 score. The section also plots the confusion matrix to visualize the model's performance.
+
 **Prediction:** This section uses the trained model to predict the class of a given traffic sign image.
 
 ## Getting Started
