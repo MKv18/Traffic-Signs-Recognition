@@ -86,5 +86,5 @@ Don't forget to give the project a star! Thanks again!
 
 ########################################
 
-In order to run the code make sure you pre-install all the dependencies such as LIME, Flask etc.
+In order to run the code make sure you pre-install all the dependencies.
 
