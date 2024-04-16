@@ -37,6 +37,15 @@ The code for this project is written in Python and is located in the FinalCode d
 
 **Testing:** This section tests the neural network model using the testing dataset. The section loads the trained model from a file and uses it to classify the images in the testing dataset. The section uses the tensorflow library to load the model and classify the images.
 
+## Folder Structure:
+1. TSR_Image_Resize.ipynb -> Contains code to resize images.
+2. TSR_ImageCountReduction.ipynb -> Contains code to reduce the counts of the images in the folder to limit your data.
+3. TSR_ImageAugmentation.ipynb -> Contains code to Augment the images to balance out the dataset for all classes.
+4. TSRFinal_AllModels.ipynb -> Contains code of 5 tried models.
+5. TSRFinal-updated.ipynb -> Contains code of final model selected.
+6. TSRUserInterface.py -> Contains code of user interface.
+7. Test.csv -> have paths of test images. (These images you can download from Kaggle.)
+
 **Evaluation:** This section evaluates the performance of the neural network model using various metrics, such as accuracy, precision, recall, and F1 score. The section also plots the confusion matrix to visualize the model's performance.
 
 **Prediction:** This section uses the trained model to predict the class of a given traffic sign image.
