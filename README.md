@@ -52,22 +52,20 @@ To get started with the traffic sign recognition system, follow these steps:
 - [Scipy](https://www.scipy.org/)
   
 ## Model
-The machine learning model used for this project is a Custom LSTM. The model is trained on the training set and evaluated on the testing set.
+The machine learning model used for this project is a Custom TR model. The model is trained on the training set and evaluated on the testing set.
 
 ## Results
-The model achieved an accuracy of 62% on the testing set.
+The model achieved an accuracy of 84% on the testing set.
 
 ## Usage
 
-This projectvcan be used in various applications such as autonomous vehicles and advanced driver assistance systems (ADAS)
+This project can be used in various applications such as autonomous vehicles and advanced driver assistance systems (ADAS)
 
 ## Roadmap
 The traffic sign recognition system requires the following packages
 -  Python 3.x
--  OpenCV
 -  TensorFlow
 -  Keras
--  Numpy
 
 ## Contributing
 
