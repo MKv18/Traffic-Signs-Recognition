@@ -46,7 +46,7 @@ The code for this project is written in Python and is located in the FinalCode d
 6. TSRUserInterface.py -> Contains code of user interface.
 7. Test.csv -> have paths of test images. (These images you can download from Kaggle.)
 
-**Evaluation:** This section evaluates the performance of the neural network model using various metrics, such as accuracy, precision, recall, and F1 score. The section also plots the confusion matrix to visualize the model's performance.
+**Evaluation:** This section evaluates the performance of the convolutional neural network model using various metrics, such as Train accuracy, validation accuracy, etc. The section also plots the confusion matrix to visualize the model's performance.
 
 **Prediction:** This section uses the trained model to predict the class of a given traffic sign image.
 
