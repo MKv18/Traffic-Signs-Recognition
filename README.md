@@ -22,6 +22,7 @@ The dataset used in this project is the German Traffic Sign Dataset. This datase
 
 The dataset is stored in the data directory of the Git repository. The data directory contains three subdirectories: training, validation, and testing. Each subdirectory contains the images for the corresponding dataset.
 
+
 ##Code
 
 The code for this project is written in Python and is located in the FinalCode directory of the Git repository. The code is a Jupyter notebook that contains the following sections:
